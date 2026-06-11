@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spam &amp; Phishing Site Detector — Free Chrome Extension</title>
+  <meta name="description" content="Free Chrome extension that detects phishing, scam, spam and fake websites instantly. The toolbar shield turns green, amber or red — 100% private, no data collected." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.png" />
+  <meta property="og:title" content="Spam &amp; Phishing Site Detector" />
+  <meta property="og:description" content="Know if a website is fake — before you type your password. Free, private, instant." />
+  <meta property="og:image" content="img/popup-safe.png" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <img src="logo.png" alt="" />
+    <a class="brand" href="index.html">Spam &amp; Phishing Site Detector</a>
+    <a class="link" href="index.html#articles">Guides</a>
+    <a class="link" href="privacy-policy.html">Privacy</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <img class="logo" src="logo.png" alt="Shield logo" />
+    <h1>Know if a website is fake — before you type your password</h1>
+    <p class="sub">A free Chrome extension that checks every site you visit for phishing,
+    scam and spam signals, and turns its shield green, amber or red. Instantly.</p>
+    <!-- TODO: replace # with the Chrome Web Store link after publishing -->
+    <a class="btn primary" href="#" id="install">Add to Chrome — it's free</a>
+    <a class="btn ghost" href="#how">How it works</a>
+    <div class="note">100% local analysis · no account · no data leaves your browser</div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>What it catches</h2>
+    <p class="lead">Scammers rely on a handful of tricks. This extension knows all of them.</p>
+    <div class="grid">
+      <div class="card"><div class="emoji">🎭</div><h3>Brand impersonation</h3>
+        <p>Fake PayPal, Amazon or bank pages hosted on look-alike addresses like
+        <code>paypal.com.account-verify.tk</code>.</p></div>
+      <div class="card"><div class="emoji">🔤</div><h3>Typos &amp; look-alikes</h3>
+        <p>Catches <code>gooogle</code>, <code>paypa1</code>, <code>amaozn</code>, <code>rnicrosoft</code> —
+        even Cyrillic letters disguised as English ones.</p></div>
+      <div class="card"><div class="emoji">🚨</div><h3>Warning banner</h3>
+        <p>Dangerous pages get a clear red banner with plain-language reasons —
+        before you enter a password or card number.</p></div>
+      <div class="card"><div class="emoji">🧲</div><h3>Bait words &amp; cheap domains</h3>
+        <p>"verify-account", "free-prize", "refund" hostnames on throwaway domain
+        endings like .tk and .icu raise the score.</p></div>
+      <div class="card"><div class="emoji">🔒</div><h3>Page red flags</h3>
+        <p>Password forms on unencrypted pages, forms that submit your data to a
+        different website, deceptive links, hidden frames.</p></div>
+      <div class="card"><div class="emoji">🛡️</div><h3>100% private</h3>
+        <p>Everything runs inside your browser. Zero network requests, zero data
+        collection, no account needed.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how" style="background:#fff;">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><div>
+        <h3>Install the extension</h3>
+        <p>One click from the Chrome Web Store. No sign-up, no settings needed.</p></div></div>
+      <div class="step"><div class="n">2</div><div>
+        <h3>Browse normally</h3>
+        <p>Every page is scored locally against 25+ phishing signals — reputation,
+        brand imitation, URL structure, bait words and page content.</p></div></div>
+      <div class="step"><div class="n">3</div><div>
+        <h3>Trust the shield</h3>
+        <p>Green means no warning signs, amber means be careful, red means stop —
+        with a banner explaining exactly why.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>See it in action</h2>
+    <div class="shots">
+      <img src="img/warning-banner.png" alt="Red warning banner shown on a fake login page" loading="lazy" />
+      <img src="img/popup-safe.png" alt="Green popup showing a safe website rating" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<section id="articles" style="background:#fff;">
+  <div class="wrap">
+    <h2>Learn to spot scams yourself</h2>
+    <p class="lead">Free guides — five minutes each, no jargon.</p>
+    <!-- AD SLOT: homepage, above article list -->
+    <div class="grid">
+      <a class="card" href="articles/how-to-spot-a-phishing-website.html">
+        <div class="emoji">🎣</div><h3>10 warning signs of a phishing website</h3>
+        <p>The checklist to run through before you trust any page.</p></a>
+      <a class="card" href="articles/url-tricks-typosquatting.html">
+        <div class="emoji">🔍</div><h3>URL tricks scammers use</h3>
+        <p>Typosquatting, homoglyphs and punycode — explained simply.</p></a>
+      <a class="card" href="articles/fake-online-shopping-sites.html">
+        <div class="emoji">🛒</div><h3>How to spot fake shopping sites</h3>
+        <p>Before the "80% off" deal empties your card.</p></a>
+      <a class="card" href="articles/clicked-a-phishing-link.html">
+        <div class="emoji">⚡</div><h3>Clicked a phishing link? Do this now</h3>
+        <p>The 7-step damage-control plan, in order.</p></a>
+      <a class="card" href="articles/free-tools-check-website-safety.html">
+        <div class="emoji">🧰</div><h3>5 free ways to check if a site is safe</h3>
+        <p>Tools anyone can use — no tech skills needed.</p></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Spam &amp; Phishing Site Detector ·
+    <a href="privacy-policy.html">Privacy Policy</a> ·
+    <a href="https://github.com/Janhavi12800">Contact</a><br />
+    This site may show ads to support development.
+  </div>
+</footer>
+
+</body>
+</html>
