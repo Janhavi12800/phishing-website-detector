@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>URL Tricks Scammers Use: Typosquatting, Look-Alike Letters and Punycode | Spam &amp; Phishing Site Detector</title>
+  <meta name="description" content="Typosquatting, look-alike domains and punycode attacks explained in plain English: how to spot a fake URL in the address bar before you type a password." />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="icon" href="../logo.png" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <img src="../logo.png" alt="" />
+    <a class="brand" href="../index.html">Spam &amp; Phishing Site Detector</a>
+    <a class="link" href="../index.html#articles">Guides</a>
+    <a class="link" href="../privacy-policy.html">Privacy</a>
+  </div>
+</header>
+
+<main class="article">
+  <h1>URL Tricks Scammers Use: Typosquatting, Look-Alike Letters and Punycode</h1>
+  <p class="byline">Updated June 2026 · 4 min read</p>
+  <!-- AD SLOT: article top -->
+
+  <p>A scam website can copy almost everything from the real one — the logo, the colours, the login form. The one thing it cannot copy is the real site's address. That makes the address bar at the top of your browser the single best place to look before you type a password or card number anywhere.</p>
+
+  <p>Scammers know you might glance up there, though, so they have invented addresses that look right at first sight. Here are the four tricks you will meet most often, and the habits that beat all of them. (Every fake address below is invented — most end in <code>.example</code>, a reserved ending nobody can ever own, so the patterns are real but the addresses themselves are harmless.)</p>
+
+  <h2>Typosquatting: misspellings that wait for you</h2>
+
+  <p>Typosquatting is a fancy word for a simple move: scammers register slightly misspelled versions of famous addresses, "squatting" on the typos we all make. Type a little too fast, or skim a link in an email, and you land on their copy instead of the real site. The classic recipes:</p>
+
+  <ul>
+    <li>One letter doubled: <code>gooogle</code> instead of <code>google</code>.</li>
+    <li>Two letters swapped: <code>amaozn</code> instead of <code>amazon</code>.</li>
+    <li>One letter missing: <span class="bad">exmple.com</span> instead of <span class="good">example.com</span>.</li>
+    <li>Right name, wrong ending: <code>example.net</code> when the site you actually use is <code>example.com</code>.</li>
+  </ul>
+
+  <p>The page itself usually looks identical to the original — the misspelling in the address bar may be the only clue you get.</p>
+
+  <h2>Letter swaps the eye misses</h2>
+
+  <p>Some swaps are nastier, because your own brain helps the scammer: we read whole word shapes, not individual letters. Three favourites:</p>
+
+  <ul>
+    <li><strong>The number 1 instead of the letter l.</strong> Look closely at <code>paypa1</code> — that last character is the digit one, not a lowercase L.</li>
+    <li><strong>"rn" instead of "m".</strong> In many fonts an <code>r</code> pressed against an <code>n</code> melts into an <code>m</code>. Read <code>rnicrosoft</code> slowly and you will see it.</li>
+    <li><strong>The number 0 instead of the letter o.</strong> At address-bar size, the two are nearly identical circles.</li>
+  </ul>
+
+  <p>When an address matters, don't read it — inspect it character by character, the way you would check a phone number before dialling.</p>
+
+  <h2>The brand-in-subdomain trick</h2>
+
+  <p>This one fools careful people too. Whoever owns a web address can put any words they like in front of it, separated by dots — those front parts are called subdomains, and inventing them is free. So a scammer who owns <code>login-check.example</code> can create <span class="bad">example.com.login-check.example</span>, and now the address begins with a name you trust.</p>
+
+  <p>The defence is to read the address from right to left. Find where it ends (at the end of the line, or at the first <code>/</code>), then walk backwards: the last piece is the ending — <code>.com</code>, <code>.org</code> and friends — and the piece just before it is the real owner. Everything further left is decoration.</p>
+
+  <ul>
+    <li><span class="good">login.example.com</span> — read from the right: <code>.com</code>, then <code>example</code>. The owner is <code>example.com</code>. Safe.</li>
+    <li><span class="bad">example.com.login-check.example</span> — read from the right: <code>.example</code>, then <code>login-check</code>. The owner is <code>login-check.example</code>, a total stranger. The familiar part at the front is bait.</li>
+  </ul>
+
+  <blockquote>The real owner of a website is whatever sits just before the final ending — the part right before the <code>.com</code>. Everything to the left of that can be faked, so read every address from right to left.</blockquote>
+
+  <h2>Punycode: letters from another alphabet</h2>
+
+  <p>Here is the trick you cannot beat with eyesight alone. Web addresses may contain letters from other alphabets — good news for most of the world, and a gift to scammers, because some of those letters are perfect twins of ours. The Cyrillic letter <code>а</code> looks identical to the Latin <code>a</code> you are reading now.</p>
+
+  <p>That means <span class="bad">exаmple.com</span> — where that single <code>а</code> is Cyrillic — is a completely different address from <span class="good">example.com</span>, even though no human can tell them apart. Behind the scenes, browsers store such addresses in a translated spelling called punycode, which starts with <code>xn--</code>, and many browsers show that spelling when an address mixes alphabets suspiciously. If <code>xn--</code> ever appears in your address bar, treat the site as a stranger.</p>
+
+  <h2>How to protect yourself</h2>
+
+  <ol>
+    <li><strong>Read the domain right to left, every time.</strong> Five seconds before typing anything private: find the ending, check the piece just before it, ignore the rest.</li>
+    <li><strong>Bookmark your bank.</strong> Type the address carefully once, save it, and only ever arrive by bookmark. A bookmark cannot be fooled by a look-alike letter.</li>
+    <li><strong>Let a password manager do the typing.</strong> A password manager (an app that stores your logins and fills them in for you) matches addresses exactly, so it will refuse to fill your password on <code>examp1e.com</code>. Its silence on a familiar-looking page is an alarm bell.</li>
+    <li><strong>Get a second pair of eyes.</strong> Our free extension checks the addresses you visit for tricks like these and turns its shield red before you type anything.</li>
+  </ol>
+
+  <p>One last eye test before you go — real on the left, fake on the right:</p>
+
+  <ul>
+    <li><span class="good">example.com</span> vs <span class="bad">examp1e.com</span> (the digit one)</li>
+    <li><span class="good">example.com</span> vs <span class="bad">exarnple.com</span> (an r and an n posing as an m)</li>
+    <li><span class="good">login.example.com</span> vs <span class="bad">example.com.login-check.example</span> (a brand hiding in front of a stranger's domain)</li>
+    <li><span class="good">example.com</span> vs <span class="bad">exаmple.com</span> (a Cyrillic letter your eyes cannot catch)</li>
+  </ul>
+
+  <p>None of this needs technical skill. Read from the right for five seconds, and the most convincing fake address becomes just another misspelled word.</p>
+
+  <!-- AD SLOT: article bottom -->
+  <div class="cta-box">
+    <h3>Get warned automatically</h3>
+    <p>Our free Chrome extension turns its shield red on dangerous sites — before you type a password or card number.</p>
+    <a class="btn primary" href="../index.html">Spam &amp; Phishing Site Detector &rarr;</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Spam &amp; Phishing Site Detector ·
+    <a href="../privacy-policy.html">Privacy Policy</a> ·
+    <a href="https://github.com/Janhavi12800">Contact</a><br />
+    This site may show ads to support development.
+  </div>
+</footer>
+
+</body>
+</html>
